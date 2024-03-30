@@ -1,0 +1,62 @@
+
+.aboutBlock{
+    width: 100%;
+    height: 440px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutBlockLeft{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.inToleft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.aboutBlockTitle{
+    font-size: 32px;
+    color: white;
+    line-height: 38.73px;
+    font-weight: 500;
+}
+
+.aboutBlockText{
+    font-weight: 400;
+    font-size: 16px;
+    color: #9B9595;
+}
+
+.aboutBlockRight{
+    background-color: black;
+    width: 45%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutButton{
+    width: 203px;
+    height: 35px;
+    border-radius: 16px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 15px;
+    transition: 0.6s;
+
+}
+
+.aboutButton:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+}
